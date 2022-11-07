@@ -57,3 +57,9 @@ CREATE INDEX visits_vet_id_asc ON visits(vet_id ASC);
 
 -- CREATE index on owners email
 CREATE INDEX owners_email_asc ON owners(email ASC);
+
+-- DROP INDEX 
+DROP INDEX visits_vet_id_asc;
+
+-- CREATE NEW INDEX 
+CREATE INDEX vets_index ON visits(vet_id);
